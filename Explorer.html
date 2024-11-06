@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Explorer</title>
+    <!-- Add this to the <head> of your HTML file -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Poppins:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="country-icon.png" type="image/png">
+    <link rel="stylesheet" href="Explorer.css">
+</head>
+<body>
+    <header>
+        <h1>🌍 Country Explorer</h1>
+        <div id="description">
+            Discover the world's wonders, cultures, and hidden gems with Country Explorer – your gateway to global adventure!
+        </div>
+        <input type="text" id="search" placeholder="Search for a country...">
+        <div class="suggestions" id="suggestions"></div>
+    </header>
+    
+    <div id="country-list"></div>
+
+    <button id="show-more" style="display: none;">Show More</button>
+
+    <div id="favorites" class="hidden">
+        <h2>Favorites</h2>
+        <div id="favorite-countries"></div>
+    </div>
+
+    <script src="Explorer.js"></script>
+</body>
+</html>
