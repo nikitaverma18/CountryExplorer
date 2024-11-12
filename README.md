@@ -17,7 +17,7 @@ Rest Countries API: To fetch country data (e.g., name, flag, etc.).
 
 Deployment Link
 You can view the live application here:
-http://127.0.0.1:5500/SearchCountry/Explorer.html
+https://illustrious-naiad-26eb81.netlify.app/
 
 Setup & Installation
 1. Clone the repository:
